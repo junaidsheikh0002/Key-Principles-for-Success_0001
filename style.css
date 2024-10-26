@@ -1,0 +1,56 @@
+/* Basic Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Body styling with a rainbow background */
+
+body {
+    background: linear-gradient(135deg, #ff0000 0%, #ff7f00 14%, #ffff00 28%, #00ff00 42%, #0000ff 57%, #4b0082 71%, #8b00ff 85%);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Container styling */
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+}
+
+
+/* Title and principle styling */
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.principle {
+    margin: 20px 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
